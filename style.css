@@ -1,0 +1,62 @@
+body {
+    background-color: #FFFFE0;
+}
+#redrectangle {
+    height: 700px;
+    width: 900px;
+    border-radius: 30px;
+    background-color: crimson;
+    text-align: center;
+    margin: 2% auto;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+#container {
+    width: 720px;
+    height: 560px;
+    text-align: center;
+    font-size: 0;
+    margin: 10px 0;
+    background-color: #FFFAFA;
+    position: relative;
+    left: 90px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+#container .box {
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 0;
+    word-spacing: 0;
+    text-align: center;
+    position: relative;
+    border-style: solid;
+    border-color: #FFFAFA;
+    border-width: thin;
+    
+}
+
+.row {
+    display: block;
+    float:left;
+    width:100%;
+}
+
+.etchasketch {
+    font-size: 50px;
+    color:#F0E68C;
+    font-family: Chalkduster, fantasy;
+}
+
+footer {
+    color:#BDB76B;
+    font-family: Chalkduster, fantasy;
+    text-align: center;
+}
+
+#resetbutton {
+
+    color:#F0E68C;
+    font-family: Chalkduster, fantasy;
+
+}
